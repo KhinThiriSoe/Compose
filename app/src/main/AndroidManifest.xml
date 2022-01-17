@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeCourse">
         <activity
-            android:name=".StateActivity"
+            android:name=".MaterialActivity"
             android:exported="true"
-            android:label="@string/title_activity_state"
+            android:label="@string/title_activity_material"
             android:theme="@style/Theme.ComposeCourse.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".StateActivity"
+            android:exported="true"
+            android:label="@string/title_activity_state"
+            android:theme="@style/Theme.ComposeCourse.NoActionBar" />
         <activity
             android:name=".ModifierActivity"
             android:exported="false"
