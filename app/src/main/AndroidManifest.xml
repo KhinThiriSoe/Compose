@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeCourse">
         <activity
-            android:name=".LazyListActivity"
+            android:name=".ConstraintLayoutActivity"
             android:exported="true"
-            android:label="@string/title_activity_list"
+            android:label="@string/title_activity_constraint_layout"
             android:theme="@style/Theme.ComposeCourse.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LazyListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.ComposeCourse.NoActionBar" />
         <activity
             android:name=".ListActivity"
             android:exported="true"
